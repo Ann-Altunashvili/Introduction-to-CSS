@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Introduction to CSS</title>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <div class="header-name inline-element">
+                <h2 class="inline-element">TechBlog</h2>
+            </div>
+
+            <nav class="nav inline-element">
+                <ul class="inline-element">
+                    <li class="inline-element">
+                        <a href="#">მთავარი</a>
+                    </li>
+                    <li class="inline-element">
+                        <a href="#">ბლოგი</a>
+                    </li>
+                    <li class="inline-element">
+                        <a href="#">კატეგორიები</a>
+                    </li>
+                    <li class="inline-element">
+                        <a href="#">ჩვენს შესახებ</a>
+                    </li>
+                    <li class="inline-element">
+                        <a href="#">კონტაქტი</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1 class="container">აღმოაჩინე ტექნოლოგიების სამყარო</h1>
+        <p class="container">თანამედროვე ტექნოლოგიები და ინოვაციები ერთ სივრცეში</p>
+    </section>
+
+    <main>
+        <div class="article-section-title container">
+            <h2 class="container">ბოლო სიახლეები</h2>
+        </div>
+
+        <div class="container">
+            <article class="article-container">
+                <div class="article-photo">
+                    <img src="./assets/first-photo.webp" alt="AI-2026">
+                </div>
+
+                <div class="article-content">
+                    <div class="spans">
+                        <span class="span-1">8 იანვარი</span>
+                        <span class="span-2">ავტორი: ნინო გელაშვილი</span>
+                    </div>
+                    <h3>ხელოვნური ინტელექტის
+                        მომავალი 2026 წელს
+                    </h3>
+                    <p>გაეცანით უახლეს ტენდენციებს AI-ის
+                        სფეროში და რა ცვლილებებს
+                        მოგვიტანს ახალი წელი. ექსპერტები
+                        აანალიზებენ ტექნოლოგიის განვითარების ძირითად
+                        მიმართულებებს.
+                        <span class="read-more">
+                            <a href="https://builtin.com/artificial-intelligence/artificial-intelligence-future"
+                                title="info">კითხვის გაგრძელება</a>
+                        </span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-container">
+                <div class="article-photo">
+                    <img src="./assets/second-photo.webp" alt="Web Development Standart">
+                </div>
+
+                <div class="article-content">
+                    <div class="spans">
+                        <span class="span-1">7 იანვარი</span>
+                        <span class="span-2">ავტორი: გიორგი ბერიძე</span>
+                    </div>
+                    <h3>Web Development-ის ახალი
+                        სტანდარტების
+                    </h3>
+                    <p>როგორ იცვლება ვებ დეველოპმენტი
+                        2026 წელს. განვიხილოთ ახალი
+                        ფრეიმვორკები, ინსტრუმენტები და
+                        საუკეთესო პრაქტიკები თანამედროვე
+                        ვებ აპლიკაციების შესაქმნელად.
+                        <span class="read-more">
+                            <a href="https://medium.com/@onix_react/key-web-development-trends-for-2026-800dbf0a7c8c"
+                                title="info">კითხვის გაგრძელება</a>
+                        </span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-container">
+                <div class="article-photo">
+                    <img src="./assets/third-photo.png" alt="CyberSequrity">
+                </div>
+                <div class="article-content">
+                    <div class="spans">
+                        <span class="span-1">6 იანვარი</span>
+                        <span class="span-2">ავტორი: ანა ქავთარაძე</span>
+                    </div>
+
+                    <h3>კიბერუსაფრთხოება
+                        დღევანდელ სამყაროში
+                    </h3>
+                    <p>თანამედროვე საფრთხეები და დაცვის
+                        მეთოდები. როგორ დავიცვათ ჩვენი
+                        მონაცემები და რა პრევენციული ზომები
+                        უნდა მივიღოთ ონლაინ სივრცეში.
+                        რა პრევენციული ზომები უნდა.
+                        <span class="read-more">
+                            <a href="https://www.vikingcloud.com/blog/cybersecurity-statistics"
+                                title="info">კითხვის გაგრძელება</a>
+                        </span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-container">
+                <div class="article-photo">
+                    <img src="./assets/fourth-photo.jpg" alt="Cloud Computing">
+                </div>
+                <div class="article-content">
+                    <div class="spans">
+                        <span class="span-1">5 იანვარი</span>
+                        <span class="span-2">ავტორი: დავით მესხი</span>
+                    </div>
+                    <h3>Cloud Computing-ის ახალი
+                        ეპოქა
+                    </h3>
+                    <p>ღრუბლოვანი ტექნოლოგიების
+                        განვითარება და მათი გამოყენების
+                        პერსპექტივები. რა შესაძლებლობებს
+                        გვთავაზობს თანამედროვე ღრუბლოვანი
+                        პლატფორმები.
+                        <span class="read-more">
+                            <a href="https://medium.com/illumination/cloud-computing-a-new-era-in-technology-db7f7f7081ce"
+                                title="info">კითხვის გაგრძელება</a>
+                        </span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-container">
+                <div class="article-photo">
+                    <img src="./assets/fifth-photo.webp" alt="Mobile App Design">
+                </div>
+
+                <div class="article-content">
+                    <div class="spans">
+                        <span class="span-1">5 იანვარი</span>
+                        <span class="span-2">ავტორი: მარიამ ლომიძე</span>
+                    </div>
+                    <h3>მობილური აპლიკაციების
+                        დიზაინი
+                    </h3>
+                    <p>UX/UI დიზაინის თანამედროვე
+                        ტენდენციები მობილური
+                        აპლიკაციებისთვის. როგორ შევქმნათ
+                        მომხმარებლისთვის მოსახერხებელი
+                        და მიმზიდველი ინტერფეისი.
+                        <span class="read-more">
+                            <a href="https://natively.dev/blog/best-mobile-app-design-trends-2026"
+                            >კითხვის გაგრძელება</a>
+                        </span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-container">
+                <div class="article-photo">
+                    <img src="./assets/sixth-photo.webp" alt="Blockchain and Crypto">
+                </div>
+                <div class="article-content">
+                    <div class="spans">
+                        <span class="span-1">3 იანვარი</span>
+                        <span class="span-2">ავტორი: ლევან ჯიქია</span>
+                    </div>
+                    <h3>Blockchain და
+                        კრიპტოვალუტები
+                    </h3>
+                    <p>Blockchain ტექნოლოგიის გამოყენების
+                        სფეროები და კრიპტოვალუტების
+                        მომავალი. ანალიზი და პროგნოზები
+                        ექსპერტებისგან ციფრული
+                        ფინანსების შესახებ.
+                        <span class="read-more">
+                            <a href="https://tatum.io/blog/top-17-crypto-events-in-2026">კითხვის გაგრძელება</a>
+                        </span>
+                    </p>
+                </div>
+            </article>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="additional-info">
+            <div class="left-side">
+                <div class="techblog-info">
+                    <h3>TechBlog</h3>
+                    <span>თანამედროვე ტექნოლოგიების შესახებ
+                        საინფორმაციო პლატფორმა.<br>
+                        ჩვენ გთავაზობთ უახლეს<br>
+                        სიახლეებს IT სფეროდან.
+                    </span>
+                </div>
+                <div class="contact ">
+                    <h3>კონტაქტი:</h3>
+                    <a href="mailto:info@techblog.ge">Email: info@techblog.ge</a>
+                    <p> Tel: +995 555 123 456 </p>
+                    <p>Address: Tbilisi, Georgia</p>
+                </div>
+            </div>
+
+            <div class="categories ">
+                <h3>კატეგორიები:</h3>
+                <ul class="categories-list">
+                    <li> <a href="#">პროგრამირება</a></li>
+                    <li> <a href="#">დიზაინი</a></li>
+                    <li> <a href="#">უსაფრთხოება</a></li>
+                    <li> <a href="#">ხელოვნური ინტელექტი</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>2026 TechBlog. ყველა უფლება დაცულია.</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
